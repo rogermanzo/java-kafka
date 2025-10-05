@@ -27,6 +27,9 @@ public class User {
     @Column(nullable = false)
     private String phone;
     
+    @Column(nullable = false)
+    private String password;
+    
     @Column(name = "date_of_birth")
     private LocalDateTime dateOfBirth;
     
